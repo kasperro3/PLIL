@@ -30,7 +30,7 @@ int main(void)
     }
 }
 
-// this function does not work on an array, it only works on two elements that are indicated (pointed on) by leftIndex and rightIndex (combined with pointer inputArray)
+// this function works on the array (pointed by leftIndex and rightIndex, both combined with pointer inputArray)
 // to know the exact position of the element IN the array we add inputArray (which points to the first element) and one of the indexes
 // knowing their position we now can swap them as below
 
